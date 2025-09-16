@@ -30,10 +30,10 @@ print(not estudante)
 
 # Laços de repetição
 
-for i in range(0,10,2):
+for i in range(0,2,1):
     print(" Repetição", i)
 
 i = 0
-while i < 10:
+while i < 2:
     print ("Repetição", i)
     i += 1
