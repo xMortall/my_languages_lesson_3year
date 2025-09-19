@@ -78,3 +78,8 @@ print ("2 elevado a 3 é: ", potencia)
 Comentário de múltiplas linhas
 """
 
+idade:int = 18
+ano_de_nascimento:int = 2006
+
+txt = f"Eu tenho {idade} anos e nasci em {ano_de_nascimento}"
+
