@@ -83,3 +83,48 @@ ano_de_nascimento:int = 2006
 
 txt = f"Eu tenho {idade} anos e nasci em {ano_de_nascimento}"
 
+frutas:list = ["maçã", "banana", "laranja"]
+
+
+frutas[0] = "pera"
+
+frutasN = []
+for i in frutas:
+    if "n" in i:
+        frutasN.append(i)
+
+print(frutasN)
+
+frutas2 = frutas.copy()
+[print(x) for x in [["maçã", "banana", "laranja"]]]
+
+carros:tuple = ("BMW", "Audi", "Mercedes")
+(marca1, marca2, marcas3) = carros
+
+print(marca1)
+
+for carro in carros:
+    print(carro)
+
+o_meu_set:set = {"Maçã"}
+
+thisDict:dict = {
+    "brand": "ford",
+    "model": "Mustang",
+    "year": 1964
+}
+
+for key in thisDict:
+    print(thisDict[key])
+
+x = 1
+
+match x:
+    case 1:
+        print("x é 1")
+    case _:
+        print("x não é 1")
+
+x = lambda a : a + 10
+print(x(5))
+

@@ -31,6 +31,6 @@ num1:int = 0
 num2:int = 1
 
 for num in range(num_n):
-    print(num)
+    print(num2)
     num1, num2 = num2, num1 + num2
     
