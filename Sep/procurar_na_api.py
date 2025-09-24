@@ -11,10 +11,11 @@ def consultar_api():
     if resposta.status_code == 200:  # Sucesso
         dados = resposta.json()  # Converte para dicionário Python
         print("Nome:", dados["name"])
+        print("Numero da Pokédex:", dados["id"])
         print("Altura:", dados["height"], "Cm")
         print("Peso:", dados["weight"] / 10, "Kg")
         print("Tipo(s):", ", ".join([tipo["type"]["name"] for tipo in dados["types"]]))
     else:
         print("Erro ao consultar API:", resposta.status_code)
-
 consultar_api()
+
