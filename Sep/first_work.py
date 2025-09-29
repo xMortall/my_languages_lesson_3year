@@ -18,12 +18,12 @@ def HelloWorld(nome):
 
 x = "awesome"
 
-def myfunc():
+def my_func():
     global x
     x = "cool"
     print("Python is " + x)
 
-myfunc()
+my_func()
 
 HelloWorld("print")
 

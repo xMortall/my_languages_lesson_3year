@@ -27,10 +27,9 @@ Elabora um programa que apresente a sequencia de fibornacci até ao n elemento
 """
 
 num_n:int = int(input("Quando numeros queres? "))
-num1:int = 0
-num2:int = 1
+num_1:int = 0
+num_2:int = 1
 
 for num in range(num_n):
-    print(num2)
-    num1, num2 = num2, num1 + num2
-    
+    print(num_2)
+    num_1, num_2 = num_2, num_1 + num_2

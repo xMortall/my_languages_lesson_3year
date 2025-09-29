@@ -1,13 +1,13 @@
-fLamb = lambda x: x * x * x
-print(fLamb(5))
+f_Lamb = lambda x: x * x * x
+print(f_Lamb(5))
 
-def fLambFunc(x):
+def f_LambFunc(x):
     return x * x * x
 
-print(fLambFunc(5))
+print(f_LambFunc(5))
 
-fLamb2 = lambda: [print(i) for i in range(1, 11)]
-fLamb2()
+f_Lamb2 = lambda: [print(i) for i in range(1, 11)]
+f_Lamb2()
 
 my_dict = {
     "nome": "Emerson",
