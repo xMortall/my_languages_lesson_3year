@@ -1,0 +1,4 @@
+TCP/IP          - > Transporte
+HTTP            - > manda/recebe hypertext
+MiME            - > 
+TLS/HTTPS       - >
